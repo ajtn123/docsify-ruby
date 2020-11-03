@@ -1,0 +1,24 @@
+{
+  "name": "markdown-ruby",
+  "version": "0.0.1",
+  "description": "扩展markd的注音符号预览",
+  "main": "./src/rubyView.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jiangwu10057/markdown-ruby.git"
+  },
+  "keywords": [
+    "markdown",
+    "ruby",
+    "markd"
+  ],
+  "author": "jiangwu10057",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jiangwu10057/markdown-ruby/issues"
+  },
+  "homepage": "https://github.com/jiangwu10057/markdown-ruby#readme"
+}
