@@ -60,3 +60,13 @@ This makes it easier to get the kanji version of the word from an IME without ba
 ```
 npm install
 ```
+
+## 使用
+```
+import MDRubyRender from 'MDRubyRender'
+```
+### marked
+```
+var renderer = new marked.Renderer()
+MDRubyRender.registerMarked(renderer);
+```
