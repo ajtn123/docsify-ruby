@@ -2,7 +2,7 @@
 
 ## 项目介绍
 > 本项目库基于[furigana-markdown](https://github.com/amclees/furigana-markdown)修改而来！
-目标是为Markdown文档预览是可以体现注音符号。
+目标是为Markdown文档预览时可以体现注音符号。
 
 ## Markdown注音符号格式展示说明
 
@@ -63,7 +63,7 @@ npm install
 
 ## 使用
 ```
-import MDRubyRender from 'MDRubyRender'
+import MDRubyRender from 'markdown-ruby'
 ```
 ### marked
 ```

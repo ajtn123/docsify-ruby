@@ -1,6 +1,6 @@
 {
   "name": "markdown-ruby",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "扩展markd的注音符号预览",
   "main": "./src/MDRubyRender.js",
   "scripts": {
