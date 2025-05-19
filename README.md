@@ -62,7 +62,7 @@ This makes it easier to get the kanji version of the word from an IME without ba
 <script>
   window.$docsify = { ... };
 </script>
-<script src="/MDRubyRender.js"></script>
+<script src="//cdn.jsdelivr.net/gh/ajtn123/docsify-ruby@latest/dist/MDRubyRender.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
 ...
 ```

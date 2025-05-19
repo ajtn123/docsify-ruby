@@ -3,8 +3,10 @@
   "version": "0.0.2",
   "description": "使 Docsify 文档可以使用简洁的注音标记",
   "main": "./src/MDRubyRender.js",
+  "browser": "./dist/MDRubyRender.min.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx esbuild src/MDRubyRender.js --minify --outfile=dist/MDRubyRender.min.js"
   },
   "repository": {
     "type": "git",
