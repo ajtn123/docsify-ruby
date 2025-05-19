@@ -243,4 +243,12 @@ MDRubyRender.registerMarkit = function (helper) {
     });
 }
 
-module.exports = MDRubyRender
+window.MDRubyRender = MDRubyRender;
+
+window.$docsify = window.$docsify || {};
+window.$docsify.plugins = (window.$docsify.plugins || []).concat(function (hook) {
+  hook.beforeEach(function (content) {
+    return MDRubyRender.render(content);
+  });
+});
+

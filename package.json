@@ -1,24 +1,26 @@
 {
-  "name": "markdown-ruby",
+  "name": "docsify-ruby",
   "version": "0.0.2",
-  "description": "扩展markd的注音符号预览",
+  "description": "使 Docsify 文档可以使用简洁的注音标记",
   "main": "./src/MDRubyRender.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jiangwu10057/markdown-ruby.git"
+    "url": "git+https://github.com/ajtn123/docsify-ruby.git"
   },
   "keywords": [
+    "docsify",
     "markdown",
     "ruby",
-    "markd"
+    "furigana",
+    "plugin"
   ],
-  "author": "jiangwu10057",
+  "author": "ajtn123",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jiangwu10057/markdown-ruby/issues"
+    "url": "https://github.com/ajtn123/docsify-ruby/issues"
   },
-  "homepage": "https://github.com/jiangwu10057/markdown-ruby#readme"
+  "homepage": "https://github.com/ajtn123/docsify-ruby#readme"
 }

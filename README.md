@@ -1,8 +1,8 @@
 # markdown-ruby
 
 ## 项目介绍
-> 本项目库基于[furigana-markdown](https://github.com/amclees/furigana-markdown)修改而来！
-目标是为Markdown文档预览时可以体现注音符号。
+> 本项目库基于[furigana-markdown](https://github.com/amclees/furigana-markdown)、[markdown-ruby](https://github.com/jiangwu10057/markdown-ruby)修改而来！
+使 Docsify 文档可以使用简洁的注音标记。
 
 ## Markdown注音符号格式展示说明
 
@@ -56,17 +56,13 @@ produces
 
 This makes it easier to get the kanji version of the word from an IME without backtracking through the text to place furigana.
 
-## 安装
-```
-npm install
-```
-
 ## 使用
 ```
-import MDRubyRender from 'markdown-ruby'
-```
-### marked
-```
-var renderer = new marked.Renderer()
-MDRubyRender.registerMarked(renderer);
+...
+<script>
+  window.$docsify = { ... };
+</script>
+<script src="/MDRubyRender.js"></script>
+<script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+...
 ```
